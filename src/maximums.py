@@ -1,11 +1,10 @@
-def max_of_two(x: float, y: float):
+def max_of_two(x: float, y: float) -> float:
     """Given x and y, that are 2 numbers, return the biggest number."""
     if x >= y:
-        biggest : float = x
+        biggest: float = x
     else:
-        biggest : float = y
+        biggest: float = y
     return biggest
-
 
 def max_of_three(x: float, y: float, z: float) -> float:
     """Given x, y, and z, which are 3 numbers, return the biggest number of the three."""
