@@ -5,5 +5,3 @@ def is_leap_year() -> bool:
             bisiesto:bool = True
     print(f"El año {año} {'es' if bisiesto else 'no es'} bisiesto")
     return bisiesto
-
-
