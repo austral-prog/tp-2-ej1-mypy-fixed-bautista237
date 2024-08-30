@@ -17,4 +17,4 @@ def max_of_three(x: float, y: float, z: float) -> float:
         max_value = z
 
     return max_value
-max_of_three():
+max_of_three(5,4,7):
