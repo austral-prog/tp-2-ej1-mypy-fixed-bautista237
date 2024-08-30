@@ -5,6 +5,7 @@ def max_of_two(x: float, y: float) -> float:
     else:
         biggest = y
     return biggest
+max_of_two():
 
 def max_of_three(x: float, y: float, z: float) -> float:
     """Given x, y, and z, which are 3 numbers, return the biggest number of the three."""
@@ -16,3 +17,4 @@ def max_of_three(x: float, y: float, z: float) -> float:
         max_value = z
 
     return max_value
+max_of_three():
